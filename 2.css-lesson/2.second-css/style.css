@@ -51,4 +51,13 @@ h2{
     border-bottom: 5px dashed brown;
 }
 
+/* pega qualquer li dentro do ul */
+ul li{
+    color: white;
+    font-size: 20px;
+}
 
+/* um nível de filho, logo, não pega filhos dos filhos */
+ul > li{
+    color: black;
+}
