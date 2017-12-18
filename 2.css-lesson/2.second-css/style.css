@@ -1,3 +1,11 @@
+
+
+/*
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+
 body{
     background-color: rosybrown;
 }
@@ -35,3 +43,12 @@ h2{
     background: linear-gradient(to left, brown, rosybrown);
     box-shadow: 3px 5px 5px white;
 }
+
+.borderImg{
+    width: 200px;
+    margin: auto;
+    border-right: 5px dotted brown; 
+    border-bottom: 5px dashed brown;
+}
+
+
