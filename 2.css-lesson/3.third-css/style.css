@@ -1,0 +1,26 @@
+body{
+    background-color: rosybrown;
+    /* text-align: center; */
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    opacity: 0.5;
+
+    display: block;
+    margin: auto;
+}
+
+.borderImg{
+    border-radius: 10%;
+    /* border-radius: 100% */
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid lightgrey;
+    padding: 5px;
+
+    /* RESPONSE IMAGE */
+}
