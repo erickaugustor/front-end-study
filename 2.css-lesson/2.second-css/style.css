@@ -1,5 +1,9 @@
 
 
+html{
+    font-family: 'Bungee', cursive;    
+}
+
 /*
     background-image: url();
     background-repeat: no-repeat;
@@ -8,6 +12,8 @@
 
 body{
     background-color: rosybrown;
+    text-align: center;
+
 }
 
 h1, h3{
@@ -24,6 +30,13 @@ h1{
 h2{
     color:white;
     text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    /*
+    REM - é calculado em cima do valor da TAG Body, Html ou Navegador.
+    EM - já utiliza no cálculo o valor do elemento pai, criando uma hierarquia no cálculo, tornando mais complexo o uso.
+    rem significa 6x o tamanho padrão, se é 16 pixels, será 16*6 
+    */
 }
 
 .square{
@@ -65,4 +78,22 @@ ul li{
 /* um nível de filho, logo, não pega filhos dos filhos */
 ul > li{
     color: black;
+}
+
+
+
+
+a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 30px;
+    word-spacing: -30px;
+    text-transform: uppercase;
+}
+
+.teste{
+    font-size: 25px;
+    line-height: 2em;
+    color: rgb(0, 0, 37);
 }
