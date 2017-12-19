@@ -10,11 +10,16 @@ body{
     background-color: rosybrown;
 }
 
-h1{
+h1, h3{
     color: brown;
     text-align: center;
     text-shadow: 2px 2px 5px white ;
 }
+
+h1{
+    color: darkgray !important;
+}
+
 
 h2{
     color:white;
