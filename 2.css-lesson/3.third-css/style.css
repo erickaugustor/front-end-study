@@ -1,6 +1,6 @@
 body{
     background-color: rosybrown;
-    /* text-align: center; */
+    text-align: center;
 }
 
 img{
@@ -9,9 +9,20 @@ img{
     padding: 5px;
     opacity: 0.5;
 
-    display: block;
-    margin: auto;
+    margin-bottom: 80px;
+
+    /* display: block;
+    margin: auto;   */
 }
+
+ button{
+     color: white;
+     background: brown;
+     border-radius: 20px;
+     border: none;
+     font-size: 24px;
+     padding: 5px 10px 1px 3px;
+ }
 
 .borderImg{
     border-radius: 10%;
