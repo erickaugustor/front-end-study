@@ -9,6 +9,42 @@ body{
     margin: 0;
 }
 
+.containter{
+    width: 100%;
+    margin: auto;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* Isso ajuda a flexibilizar */
+    align-items: center;
+    /* Itens posicionados no centro */
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+  
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} 
+
+
 /* ############ Nav ############ */
 
 nav{
@@ -53,6 +89,23 @@ ul.topnav li.drop-down-icon{
     display: none;
 }
 
+/* ############ Custom styles ############  */
+
+#section-1-gradient{
+    background: #d72621;
+    background: -webkit-linear-gradient(#a81d1b, #d72621);
+    background: -o-linear-gradient(#a81d1b, #d72621);
+    background: -moz-linear-gradient(#a81d1b, #d72621);
+    background: linear-gradient(#a81d1b, #d72621);
+}
+
+
+
+
+
+
+
+
 /* ############ Mobile ############ */
 
 @media screen and (max-width: 680px){
@@ -91,4 +144,10 @@ ul.topnav li.drop-down-icon{
         text-align: left;
     }
     
+
+
+
+
+
+
 }
