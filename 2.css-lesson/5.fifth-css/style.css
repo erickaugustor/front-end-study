@@ -127,6 +127,11 @@ h1.large{
     line-height: 70px;
 }
 
+.section-2-header{
+    font-size: 3rem;
+    text-align: center;
+}
+
 form h2{
     color:	#f7efef;
 }
