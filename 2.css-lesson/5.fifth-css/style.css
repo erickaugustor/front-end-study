@@ -46,5 +46,19 @@ ul.topnav li a{
 
 ul.topnav li a:hover{
     background: #314931;
-    color: white;
+    color: #f7efef;
+}
+
+ul.topnav li.drop-down-icon{
+    display: none;
+}
+
+/* ############ Mobile ############ */
+
+@media screen and (max-width: 680px){
+    /*Selecionando quando a tela fica nessa medida*/
+    ul.topnav li:not(:nth-child(1)) {
+        /*Selecionando elemento e usando a negação*/
+        display: none;
+    }
 }
