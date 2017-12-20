@@ -45,6 +45,12 @@ body{
 .col-12 {width: 100%;} 
 
 
+
+
+
+
+
+
 /* ############ Nav ############ */
 
 nav{
@@ -89,6 +95,13 @@ ul.topnav li.drop-down-icon{
     display: none;
 }
 
+
+
+
+
+
+
+
 /* ############ Custom styles ############  */
 
 #section-1-gradient{
@@ -99,6 +112,12 @@ ul.topnav li.drop-down-icon{
     background: linear-gradient(#a81d1b, #d72621);
 }
 
+h1.large{
+    color:	#f7efef;
+    font-size: 3.5rem; 
+    margin: 0;
+    line-height: 70px;
+}
 
 
 
