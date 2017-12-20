@@ -54,7 +54,9 @@ p{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;} 
 
-
+*{
+    box-sizing: border-box;
+}
 
 
 
@@ -124,9 +126,30 @@ ul.topnav li.drop-down-icon{
 
 div.box{
     text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    border-radius: 7px;
     background-color: white;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
     0 2px 3px 0 rgba(0, 0, 0,0.1);   
+}
+
+button{
+    font-size: 32px;
+    font-weight: 700px;
+    color: white;
+    background-color: #639565;
+    padding: 15px 68px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 70px;
+    border-style: none;
+}
+
+button.learn-more{
+    display: block;
+    margin: auto;
 }
 
 div.icon{
@@ -209,9 +232,18 @@ input[type="text"]{
     }
     
 
-    .col-6{
+    .col-4, .col-6{
         width: 100%;
         margin: 0;
+    }
+
+    h1.section-2-header{
+        font-size: 50px;
+    }
+
+    div.box{
+        padding: 5px;
+        display: block;
     }
 
     div.left-side-col, div.right-side-col{
