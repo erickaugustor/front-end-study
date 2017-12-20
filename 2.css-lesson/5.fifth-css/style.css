@@ -83,7 +83,7 @@ ul.topnav li a{
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: black;
+    color: #f7efef;
 }
 
 ul.topnav li a:hover{
@@ -136,6 +136,7 @@ input[type="text"]{
     width: 400px;
     min-width: 100px;
     padding: 6px;
+    border-radius: 7px;
 }
 
 
@@ -182,9 +183,25 @@ input[type="text"]{
     }
     
 
+    .col-6{
+        width: 100%;
+        margin: 0;
+    }
 
+    div.left-side-col, div.right-side-col{
+        margin: 15px;
+    }
 
+    input[type="text"]{
+        width: 350px;
+    }
 
+    .video-container iframe{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
 
 
 }
