@@ -202,7 +202,27 @@ input[type="text"]{
     border-radius: 7px;
 }
 
+footer.footsy{
+    background-color: #639565;
+    padding-left: 10% 
+}
 
+footer.footsy h1{
+    color: #f7efef;
+    font-size: 35px;
+}
+
+footer.footsy ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+footer.footsy li{
+    color: #f7efef;
+    font-size: 22px;
+    line-height: 1.4;
+}
 
 
 
@@ -252,6 +272,11 @@ input[type="text"]{
     .col-4, .col-6, .col-7, .col-5{
         width: 100%;
         margin: 0;
+    }
+
+    .col-3{
+        width: 40%;
+        display: block;
     }
 
     .slope-icon{
