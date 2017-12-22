@@ -43,13 +43,37 @@ console.log(bankBalance);
 
 //objects
 
+
+/*
+var students = [];
+
 function  student(primeiroNome, ultimoNome, idade){
     this.firstName = primeiroNome;
     this.lastName = ultimoNome;
     this.age = idade;
- //   this.greeting = function 
+    this.greeting = function(){
+        return "Hi, I'm " + this.firstName + " and I'm " + this.age + " years old.";
+    };
 }
 
+
+//var s1 = new student("Jenny", "Laga", 5);
+//console.log(s1);
+//console.log(s1.greeting);
+
+students.push(new student("Jenny", "Laga", 5));
+students.push(new student("Erick", "Augusto", 18));
+
+
+
+for(var index = 0; index < students.length; index++){
+    //var student = students[index];
+    console.log(students[index].greeting());
+}
+
+*/
+
+/*
 var student0 = {
     firstName: "John",
     lastName: "Parker",
@@ -86,3 +110,47 @@ students.push(student2);
 for(var index = 0; index < students.length; index++){
     console.log(students[index]);
 }
+
+
+*/
+
+
+var students = [];
+
+function  student(primeiroNome, ultimoNome, idade){
+    this.firstName = primeiroNome;
+    this.lastName = ultimoNome;
+    this.age = idade;
+    this.greeting = function(){
+        return "Hi, I'm " + this.firstName + " and I'm " + this.age + " years old.";
+    };
+}
+
+
+//var s1 = new student("Jenny", "Laga", 5);
+//console.log(s1);
+//console.log(s1.greeting);
+
+students.push(new student("Jenny", "Laga", 5));
+students.push(new student("Erick", "Augusto", 18));
+
+var student = students[0];
+
+for(var key in students){
+    console.log(students[key]);
+}
+
+//for in loop
+for(var key in student){
+    console.log(student[key]);
+}
+
+
+
+
+/*
+for(var index = 0; index < students.length; index++){
+    //var student = students[index];
+    console.log(students[index].greeting());
+}
+*/
